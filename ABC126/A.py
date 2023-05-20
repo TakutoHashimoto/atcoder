@@ -13,7 +13,7 @@ def get_string():
 
 def main():
     N, K = get_in_map()
-    S = list(get_string)
+    S = list(get_string())
 
     S[K-1] = S[K-1].lower()
     S = ''.join(S)
